@@ -39,7 +39,7 @@ public class DesignTacoController {
 	    }
 	    
 	    model.addAttribute("design", new Taco());
-	    return "design";
+	    return "design-a-taco";
 	}
 
 	private List<Ingredient> filterByType(List<Ingredient> ingredients, Type type) {
